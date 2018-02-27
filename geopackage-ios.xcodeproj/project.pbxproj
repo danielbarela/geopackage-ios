@@ -2461,9 +2461,11 @@
 				TargetAttributes = {
 					042FC6DF1B964BC800549A4B = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = ZL8G5D9G2H;
 					};
 					042FC6EA1B964BC800549A4B = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = ZL8G5D9G2H;
 					};
 				};
 			};
@@ -2993,7 +2995,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD31F4358B5434D052BEDFD7 /* Pods-geopackage-ios.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZL8G5D9G2H;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3010,6 +3014,7 @@
 			baseConfigurationReference = 4E72669562C5CE4964BD9B88 /* Pods-geopackage-ios.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZL8G5D9G2H;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3026,6 +3031,7 @@
 			baseConfigurationReference = 316F133D9F4C3C4631556BC9 /* Pods-geopackage-iosTests.debug.xcconfig */;
 			buildSettings = {
 				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = ZL8G5D9G2H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -3046,6 +3052,7 @@
 			baseConfigurationReference = 2238D6F65D3DC8F0551140F1 /* Pods-geopackage-iosTests.release.xcconfig */;
 			buildSettings = {
 				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = ZL8G5D9G2H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
