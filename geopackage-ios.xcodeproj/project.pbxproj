@@ -2995,6 +2995,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD31F4358B5434D052BEDFD7 /* Pods-geopackage-ios.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZL8G5D9G2H;
@@ -3013,6 +3014,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E72669562C5CE4964BD9B88 /* Pods-geopackage-ios.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ZL8G5D9G2H;
 				DYLIB_COMPATIBILITY_VERSION = 1;
