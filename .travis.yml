@@ -11,6 +11,8 @@ env:
   - DESTINATION="$IOS11"
   - DESTINATION="$IOS10"
 after_success: bundle exec slather
+before_install:
+- pod update
 before_script:
 - bundle exec pod install --project-directory=.
 script:
