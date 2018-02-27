@@ -2555,13 +2555,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-geopackage-iosTests/Pods-geopackage-iosTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/tiff-ios/TIFF.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/wkb-ios/WKB.bundle",
+				"$PODS_CONFIGURATION_BUILD_DIR/tiff-ios/TIFF.bundle",
+				"$PODS_CONFIGURATION_BUILD_DIR/wkb-ios/WKB.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TIFF.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WKB.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2575,13 +2574,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-geopackage-ios/Pods-geopackage-ios-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/tiff-ios/TIFF.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/wkb-ios/WKB.bundle",
+				"$PODS_CONFIGURATION_BUILD_DIR/tiff-ios/TIFF.bundle",
+				"$PODS_CONFIGURATION_BUILD_DIR/wkb-ios/WKB.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TIFF.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WKB.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
